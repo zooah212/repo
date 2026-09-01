@@ -1,0 +1,74 @@
+{
+  "minVersion": "0.3",
+  "class": "DepictionTabView",
+  "tintColor": "#667eea",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "## 描述\nDebRecords 插件用于记录插件的安装、卸载或升级信息。\n\n可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份。\n\n支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "zooah212"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.1.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持的系统",
+          "text": "iOS 15.0+"
+        }
+      ]
+    },
+    {
+      "tabname": "更新日志",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.1.5\n- 新增 RootHide (Dopamine) 越狱环境支持\n- 修复 rootless 环境下日志路径问题\n- 优化日志记录格式"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.1.2\n- 优化备份弹窗样式\n- 解决备份时会出现卡死的问题，增加恢复备份功能\n- 增加不是通过 Sileo 安装的插件记录\n- 手机重启原因细化，支持查看详情\n- 安全模式记录、SpringBoard 重启记录支持清除\n- 备份记录详情中支持显示总数、成功数、失败数\n- 其他功能优化"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.0.9\n- 优化插件备份页面，调整备份插件逻辑\n- 支持搜索插件并备份单个插件\n- 备份过程中可以终止\n- 部分页面增加清除记录按钮\n- 增加 Filza 跳转到备份目录\n- 可以备份全部插件、用户插件"
+        }
+      ]
+    },
+    {
+      "tabname": "本源公告",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "## zooah's Repo\n\n- 本源提供 Griddy、DebRecords 等插件\n- 源内插件部分为搬运/修改/自编译版本\n- 安装以后请于24小时内删除\n- 安装以后出现异常与本源无关\n- 如有侵权，请联系下架"
+        }
+      ]
+    }
+  ]
+}

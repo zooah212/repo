@@ -1,0 +1,80 @@
+{
+  "minVersion": "0.3",
+  "class": "DepictionTabView",
+  "tintColor": "#667eea",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "## 描述\nGriddy 是一个图标摆放插件，开启插件后，屏幕中的图标可以拖放到任意位置。\n\n文件夹内、Dock 栏可以选择开启或关闭任意摆放；支持横屏模式禁用任意摆放功能。\n\n作者发布 1.0.5 版本之后就没有维护了，当时有安全模式的问题和其他 bug，现进行了修复，并增加了设置页面。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "mikifp & zooah212"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.1.8"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持的系统",
+          "text": "iOS 15.0+"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "原版 GitHub",
+          "action": "https://github.com/miki-fp/griddy",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "tabname": "更新日志",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.1.8\n- 解决 roothide 环境下可能出现安全模式的问题"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.1.6\n- 支持横屏模式禁用任意摆放功能\n- 解决问题"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.1.3\n- 设置中增加 Griddy\n- 文件夹内、Dock 栏支持开启或关闭任意摆放\n- 其他优化"
+        }
+      ]
+    },
+    {
+      "tabname": "本源公告",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "## zooah's Repo\n\n- 本源提供 Griddy、DebRecords 等插件\n- 源内插件部分为搬运/修改/自编译版本\n- 安装以后请于24小时内删除\n- 安装以后出现异常与本源无关\n- 如有侵权，请联系下架"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 Package: com.mikifp.griddy
 Icon: https://zooah212.github.io/repo/icons/Griddy.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.mikifp.griddy/js.json
 Depiction: https://zooah212.github.io/repo/depictions/com.mikifp.griddy/
 Version: 1.1.8
 Architecture: iphoneos-arm64
@@ -18,6 +19,7 @@ Name: Griddy
 
 Package: com.zooah.debrecords
 Icon: https://zooah212.github.io/repo/icons/DebRecords.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/js.json
 Depiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/
 Version: 1.1.5
 Architecture: iphoneos-arm64
@@ -36,6 +38,7 @@ Name: DebRecords
 
 Package: com.zooah.debrecords
 Icon: https://zooah212.github.io/repo/icons/DebRecords.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/js.json
 Depiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/
 Version: 1.1.5
 Architecture: iphoneos-arm64e

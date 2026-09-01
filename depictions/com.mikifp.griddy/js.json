@@ -72,7 +72,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "## zooah's Repo\n\n- 本源提供 Griddy、DebRecords 等插件\n- 源内插件部分为搬运/修改/自编译版本\n- 安装以后请于24小时内删除\n- 安装以后出现异常与本源无关\n- 如有侵权，请联系下架"
+          "markdown": "## zooah's Repo\n\n- 本源提供 Griddy、DebRecords 等插件\n- 插件安装后出现问题请卸载\n- 本人开发插件仅供学习、测试使用"
         }
       ]
     }

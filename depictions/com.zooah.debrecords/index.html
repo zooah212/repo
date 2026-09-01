@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>DebRecords</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #f2f2f7; }
+  h1 { margin: 0 0 8px; font-size: 28px; }
+  .meta { color: #666; margin-bottom: 24px; }
+  .section { background: #fff; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  .section h2 { margin-top: 0; font-size: 18px; color: #333; }
+  .version { margin-bottom: 16px; }
+  .version:last-child { margin-bottom: 0; }
+  .version-title { font-weight: 600; color: #007aff; }
+  .version-date { color: #888; font-size: 13px; margin-left: 8px; }
+  ul { padding-left: 20px; margin: 8px 0 0; }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+  <h1>DebRecords</h1>
+  <div class="meta">by zooah212 · 版本 1.1.5</div>
+
+  <div class="section">
+    <h2>描述</h2>
+    <p>DebRecords 插件用于记录插件的安装、卸载或升级信息；可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份；支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。</p>
+  </div>
+
+  <div class="section">
+    <h2>更新日志</h2>
+    <div class="version">
+      <span class="version-title">1.1.5</span>
+      <span class="version-date">2026-09-01</span>
+      <ul>
+        <li>新增 RootHide (Dopamine) 越狱环境支持</li>
+        <li>修复 rootless 环境下日志路径问题</li>
+        <li>优化日志记录格式</li>
+      </ul>
+    </div>
+    <div class="version">
+      <span class="version-title">1.1.2</span>
+      <span class="version-date">2026-08-18</span>
+      <ul>
+        <li>优化备份弹窗样式</li>
+        <li>解决备份时会出现卡死的问题，增加恢复备份功能</li>
+        <li>增加不是通过 Sileo 安装的插件记录</li>
+        <li>手机重启原因细化，支持查看详情</li>
+        <li>安全模式记录、SpringBoard 重启记录支持清除</li>
+        <li>备份记录详情中支持显示总数、成功数、失败数</li>
+        <li>其他功能优化</li>
+      </ul>
+    </div>
+    <div class="version">
+      <span class="version-title">1.0.9</span>
+      <span class="version-date">2026-08-16</span>
+      <ul>
+        <li>优化插件备份页面，调整备份插件逻辑</li>
+        <li>支持搜索插件并备份单个插件</li>
+        <li>备份过程中可以终止</li>
+        <li>部分页面增加清除记录按钮</li>
+        <li>增加 Filza 跳转到备份目录</li>
+        <li>可以备份全部插件、用户插件</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

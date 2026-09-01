@@ -1,0 +1,54 @@
+Package: com.mikifp.griddy
+Icon: https://zooah212.github.io/icons/Griddy.png
+Depiction: https://zooah212.github.io/depictions/com.mikifp.griddy/
+Version: 1.1.8
+Architecture: iphoneos-arm64
+Maintainer: mikifp & zooah212
+Installed-Size: 484
+Depends: mobilesubstrate
+Filename: debs/griddy-1.1.8.deb
+Size: 107246
+MD5sum: 7aef1fea3fa991c8a1a7f4777ec30e53
+SHA1: a3c595f4cde457b05a68bad282ca1fd4be0d9f29
+SHA256: abf411af88eaaa4a69917eb5c1bd9978e509a5dfe35b52ccefbfd682cd0beed6
+Section: Tweaks
+Description: Griddy 是一个图标摆放插件，开启插件后，屏幕中的图标可以拖放到任意位置。文件夹内、Dock 栏可以选择开启或关闭任意摆放；支持横屏模式禁用任意摆放功能；作者发布 1.0.5 版本之后就没有维护了，当时有安全模式的问题和其他bug，现进行了修复，并增加了设置页面。
+Author: mikifp & zooah212
+Name: Griddy
+
+Package: com.zooah.debrecords
+Icon: https://zooah212.github.io/icons/DebRecords.png
+Depiction: https://zooah212.github.io/depictions/com.zooah.debrecords/
+Version: 1.1.5
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 1016
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/DebRecords-1.1.5-rootless.deb
+Size: 141296
+MD5sum: 111d4086cd9e5c7986af87db30f4f6dd
+SHA1: c1c8d41ebe8a8909e075bfa26019f9ae5e2cb9b8
+SHA256: 9f05ae00833e998e0ce363bfd2e158ca444915befaa095c677882d336b4d15b2
+Section: Tweaks
+Description: DebRecords 插件用于记录插件的安装、卸载或升级信息；可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份；支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。
+Author: zooah212
+Name: DebRecords
+
+Package: com.zooah.debrecords
+Icon: https://zooah212.github.io/icons/DebRecords.png
+Depiction: https://zooah212.github.io/depictions/com.zooah.debrecords/
+Version: 1.1.5
+Architecture: iphoneos-arm64e
+Maintainer: zooah212
+Installed-Size: 1016
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/DebRecords-1.1.5-roothide.deb
+Size: 141368
+MD5sum: 384d68b6f7f83ff76175a45d2f530664
+SHA1: e056e3956fb72395a2054422e8826d9546bd8440
+SHA256: cab2cf0cb1f3b6ca252e02059dbffc8dd73ba54e52b1bdc9570eb8330d270b42
+Section: Tweaks
+Description: DebRecords 插件用于记录插件的安装、卸载或升级信息；可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份；支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。
+Author: zooah212
+Name: DebRecords
+

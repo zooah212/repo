@@ -5,7 +5,7 @@
   "author": "mikifp & zooah212",
   "maintainer": "mikifp & zooah212",
   "section": "Tweaks",
-  "icon": "https://zooah212.github.io/icons/Griddy.png",
+  "icon": "https://zooah212.github.io/repo/icons/Griddy.png",
   "description": "Griddy 是一个图标摆放插件，开启插件后，屏幕中的图标可以拖放到任意位置。文件夹内、Dock 栏可以选择开启或关闭任意摆放；支持横屏模式禁用任意摆放功能；作者发布 1.0.5 版本之后就没有维护了，当时有安全模式的问题和其他 bug，现进行了修复，并增加了设置页面。",
   "changelog": [
     {

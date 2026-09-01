@@ -5,7 +5,7 @@
   "author": "zooah212",
   "maintainer": "zooah212",
   "section": "Tweaks",
-  "icon": "https://zooah212.github.io/icons/DebRecords.png",
+  "icon": "https://zooah212.github.io/repo/icons/DebRecords.png",
   "description": "DebRecords 插件用于记录插件的安装、卸载或升级信息；可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份；支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。",
   "changelog": [
     {

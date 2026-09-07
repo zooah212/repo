@@ -23,7 +23,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.1.8"
+          "text": "1.1.9"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,6 +42,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.1.9\n- 解决注销后图标恢复到默认位置的问题"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

@@ -39,6 +39,14 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
+          "markdown": "#### 版本: 1.1.6\n- 丰富安全模式信息"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
           "markdown": "#### 版本: 1.1.5\n- 新增 RootHide (Dopamine) 越狱环境支持\n- 修复 rootless 环境下日志路径问题\n- 优化日志记录格式"
         },
         {

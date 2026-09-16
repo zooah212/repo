@@ -131,3 +131,22 @@ Description: SwipeDeck 是一个快捷面板插件，面板支持添加多种类
 Author: zooah212
 Name: SwipeDeck
 
+Package: com.zooah.swipedeck
+Icon: https://zooah212.github.io/repo/icons/SwipeDeck.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/js.json
+Depiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/
+Version: 0.3.1-1
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 3032
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/SwipeDeck-0.3.1-1.deb
+Size: 1156844
+MD5sum: 1cb201243047990031219330368c963b
+SHA1: dbbee36fb8110485ae408c15c5fcdf8b5f3ff30a
+SHA256: 3cfff760fe09a6312576ef7f02985c3a1d43c93af8b34ca11cc5b9860d6e6931
+Section: Tweaks
+Description: SwipeDeck 是一个快捷面板插件，面板支持添加多种类型的功能按钮，包括系统安装的app应用、快捷指令、自定义shell命令以及一些内置的功能按钮。面板支持多种方式触发显示，同时支持多种面板主题。
+Author: zooah212
+Name: SwipeDeck
+

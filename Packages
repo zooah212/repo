@@ -112,3 +112,22 @@ Description: DebRecords 插件用于记录插件的安装、卸载或升级信�
 Author: zooah212
 Name: DebRecords
 
+Package: com.zooah.swipedeck
+Icon: https://zooah212.github.io/repo/icons/SwipeDeck.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/js.json
+Depiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 3032
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/SwipeDeck-0.3.1.deb
+Size: 1155708
+MD5sum: eb29ff0e042383600008d4dcb81d5d92
+SHA1: b418730ab4cdfab6db1798180dc75478689fb560
+SHA256: 9369166ef1c71617f1ca606342fdac09fc56e851b733117bc592e95661e2f9e2
+Section: Tweaks
+Description: SwipeDeck 是一个快捷面板插件，面板支持添加多种类型的功能按钮，包括系统安装的app应用、快捷指令、自定义shell命令以及一些内置的功能按钮。面板支持多种方式触发显示，同时支持多种面板主题。
+Author: zooah212
+Name: SwipeDeck
+

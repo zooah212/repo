@@ -8,9 +8,56 @@
       "class": "DepictionStackView",
       "views": [
         {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{180, 373}",
+          "screenshots": [
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/screenshots/1.jpg",
+              "accessibilityText": "SwipeDeck 预览图 1",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/screenshots/2.jpg",
+              "accessibilityText": "SwipeDeck 预览图 2",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/screenshots/3.jpg",
+              "accessibilityText": "SwipeDeck 预览图 3",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/screenshots/4.jpg",
+              "accessibilityText": "SwipeDeck 预览图 4",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/screenshots/5.jpg",
+              "accessibilityText": "SwipeDeck 预览图 5",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/screenshots/6.jpg",
+              "accessibilityText": "SwipeDeck 预览图 6",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/screenshots/7.jpg",
+              "accessibilityText": "SwipeDeck 预览图 7",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/screenshots/8.jpg",
+              "accessibilityText": "SwipeDeck 预览图 8",
+              "video": false
+            }
+          ]
+        },
+        {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "## 描述\nSwipeDeck 是一个快捷面板插件，面板支持添加多种类型的功能按钮，包括系统安装的 app 应用、快捷指令、自定义 shell 命令以及一些内置的功能按钮。\n\n面板支持多种方式触发显示，同时支持多种面板主题。后续会增加更多功能，欢迎大家使用！"
+          "markdown": "## 描述\nSwipeDeck - 快捷助手，是一款功能触发型插件，可以通过多种方式主动或被动方式调用 ios 系统的功能。后续会增加更多功能，欢迎大家使用！"
         },
         {
           "class": "DepictionSeparatorView"
@@ -23,12 +70,17 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.1-1"
+          "text": "0.3.3-19"
         },
         {
           "class": "DepictionTableTextView",
           "title": "支持的系统",
-          "text": "iOS 15.0+"
+          "text": "iOS 15.0 - 17.3.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持的越狱类型",
+          "text": "多巴胺无根/隐根、Relaxin 越狱"
         }
       ]
     },
@@ -36,6 +88,30 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.3-19\n⭐插件中文名命名为 - 快捷助手；\n新增主屏幕、锁屏页面手势；\n面板按钮支持长按手势，并增加实时特效；\n面板按钮布局可调;"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.2-25\n支持实体键按键功能；\n支持区域手势功能；\n内置功能增加：系统截屏、VPN开关、Fila跳转、低电量模式开关、定位开关、飞行模式开关；\n实体键功能、区域手势绑定功能时可以选择动作；\n"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.1-29\n支持玻璃面板；\n支持添加电话，面板中可拨打电话；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

@@ -8,6 +8,43 @@
       "class": "DepictionStackView",
       "views": [
         {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{180, 373}",
+          "screenshots": [
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.debrecords/screenshots/1.jpg",
+              "accessibilityText": "DebRecords 预览图 1",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.debrecords/screenshots/2.jpg",
+              "accessibilityText": "DebRecords 预览图 2",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.debrecords/screenshots/3.jpg",
+              "accessibilityText": "DebRecords 预览图 3",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.debrecords/screenshots/4.jpg",
+              "accessibilityText": "DebRecords 预览图 4",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.debrecords/screenshots/5.jpg",
+              "accessibilityText": "DebRecords 预览图 5",
+              "video": false
+            },
+            {
+              "url": "https://zooah212.github.io/repo/depictions/com.zooah.debrecords/screenshots/6.jpg",
+              "accessibilityText": "DebRecords 预览图 6",
+              "video": false
+            }
+          ]
+        },
+        {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
           "markdown": "## 描述\nDebRecords 插件用于记录插件的安装、卸载或升级信息。\n\n可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份。\n\n支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。"
@@ -23,12 +60,17 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.1.7"
+          "text": "1.1.7-28"
         },
         {
           "class": "DepictionTableTextView",
           "title": "支持的系统",
-          "text": "iOS 15.0+"
+          "text": "iOS 15.0 - 17.3.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持的越狱类型",
+          "text": "多巴胺无根/隐根、Relaxin 越狱"
         }
       ]
     },
@@ -36,6 +78,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.1.7-28\n- 支持 Roothide 越狱环境"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

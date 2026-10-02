@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.3-19"
+          "text": "0.3.4-13"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.4-13\n⭐增加事件监听功能；\n面板使用图片/视频背景时，支持调节透明度；\n修改实体键中音量加减键功能未开启可能影响音量调节的问题；\n打开告警动作增强，未解锁状态下也能够显示红色闪烁效果，同时进行声音提醒。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

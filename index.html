@@ -48,17 +48,31 @@
       color: #333;
       word-break: break-all;
     }
-    .copy-btn {
+    .source-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
       margin-top: 12px;
-      padding: 8px 20px;
-      background: #667eea;
-      color: white;
+    }
+    .add-btn, .copy-btn {
+      padding: 8px 16px;
       border: none;
       border-radius: 8px;
       cursor: pointer;
       font-size: 0.9em;
+      color: white;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
       transition: background 0.2s;
     }
+    .btn-sileo { background: #e15468; }
+    .btn-sileo:hover { background: #d13f55; }
+    .btn-zebra { background: #3b82f6; }
+    .btn-zebra:hover { background: #2563eb; }
+    .btn-irisin { background: #8b5cf6; }
+    .btn-irisin:hover { background: #7c3aed; }
+    .copy-btn { background: #667eea; }
     .copy-btn:hover { background: #5a67d8; }
     .plugins {
       display: grid;
@@ -126,7 +140,12 @@
     <div class="source-card">
       <h2>📦 添加到 Sileo</h2>
       <div class="source-url" id="sourceUrl">https://zooah212.github.io/repo/</div>
-      <button class="copy-btn" onclick="copyUrl()">复制源地址</button>
+      <div class="source-actions">
+        <a class="add-btn btn-sileo" href="sileo://source/https://zooah212.github.io/repo/">在 Sileo 中添加</a>
+        <a class="add-btn btn-zebra" href="zbra://sources/add/https://zooah212.github.io/repo/">在 Zebra 中添加</a>
+        <a class="add-btn btn-irisin" href="irisin://repository/add?url=https://zooah212.github.io/repo/">在 Irisin 中添加</a>
+        <button class="copy-btn" onclick="copyUrl()">复制源地址</button>
+      </div>
     </div>
 
     <div class="plugins">

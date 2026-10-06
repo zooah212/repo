@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.5-5"
+          "text": "0.3.5-12"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.5-12\n- 新增K2拍照、录像调用功能，针对K2 1.1.0 版本进行的适配，其他版本不保证能用；\n- 修复监听事件中，监听锁屏和解锁无效的问题；\n- 修复17系统面板中注销弹窗中按钮点击无效的问题；\n- 修复实体键中，音量加、减键绑定了任意功能后并在开启的情况下，单击调节音量加、减会不生效问题；\n- 修复16系统监听事件中，wifi关闭事件打开蜂窝没效果，蜂窝关闭打开wifi没效果的问题；\n- 修复crane容器相关问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
@@ -123,7 +131,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.4-13\n⭐增加事件监听功能；\n面板使用图片/视频背景时，支持调节透明度；\n修改实体键中音量加减键功能未开启可能影响音量调节的问题；\n打开告警动作增强，未解锁状态下也能够显示红色闪烁效果，同时进行声音提醒。"
+          "markdown": "#### 版本: 0.3.4-13\n- ⭐增加事件监听功能；\n- 面板使用图片/视频背景时，支持调节透明度；\n- 修改实体键中音量加减键功能未开启可能影响音量调节的问题；\n- 打开告警动作增强，未解锁状态下也能够显示红色闪烁效果，同时进行声音提醒。"
         },
         {
           "class": "DepictionSeparatorView"
@@ -131,7 +139,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.3-19\n⭐插件中文名命名为 - 快捷助手；\n新增主屏幕、锁屏页面手势；\n面板按钮支持长按手势，并增加实时特效；\n面板按钮布局可调;"
+          "markdown": "#### 版本: 0.3.3-19\n- ⭐插件中文名命名为 - 快捷助手；\n- 新增主屏幕、锁屏页面手势；\n- 面板按钮支持长按手势，并增加实时特效；\n- 面板按钮布局可调;"
         },
         {
           "class": "DepictionSeparatorView"
@@ -139,7 +147,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.2-25\n支持实体键按键功能；\n支持区域手势功能；\n内置功能增加：系统截屏、VPN开关、Fila跳转、低电量模式开关、定位开关、飞行模式开关；\n实体键功能、区域手势绑定功能时可以选择动作；\n"
+          "markdown": "#### 版本: 0.3.2-25\n- 支持实体键按键功能；\n- 支持区域手势功能；\n- 内置功能增加：系统截屏、VPN开关、Fila跳转、低电量模式开关、定位开关、飞行模式开关；\n- 实体键功能、区域手势绑定功能时可以选择动作；\n"
         },
         {
           "class": "DepictionSeparatorView"
@@ -147,7 +155,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.1-29\n支持玻璃面板；\n支持添加电话，面板中可拨打电话；"
+          "markdown": "#### 版本: 0.3.1-29\n- 支持玻璃面板；\n- 支持添加电话，面板中可拨打电话；"
         },
         {
           "class": "DepictionSeparatorView"

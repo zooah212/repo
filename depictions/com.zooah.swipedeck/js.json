@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.5-12"
+          "text": "0.3.5-18"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.5-18\n- 新增定时任务功能，定时任务支持绑定动作；\n- 定时任务添加动作时，可添加铃声音量和媒体音量调节；\n- 修复电源键+音量加键截图时，音量自动调到最高的问题；\n- 修复面板中注销弹窗按钮点击无效的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.5-18"
+          "text": "0.3.6-9"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.6-9\n- 监听事件中增加app打开和app关闭事件，例如打开Telegram时开启VPN；\n- 内置功能增加方向锁定、Spotlight、控制中心、通知中心、清理后台、勿扰模式功能；\n- 修复16系统监听事件中，wifi关闭事件打开蜂窝没效果，蜂窝关闭打开wifi没效果的问题；\n- 修复定时任务条目显示不全的问题；\n- 修复定时任务可能到点不执行的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

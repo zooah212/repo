@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.6-13"
+          "text": "0.3.6-17"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.6-17\n- 区域手势中增加手指手势，包括双指长按、三指长按、捏合、放大。例如可以设置捏合锁屏等等动作；\n- 修复16/17系统部分监听事件无法触发的问题；\n- 修复crane容器相关问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

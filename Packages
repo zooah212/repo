@@ -245,3 +245,22 @@ Description: SwipeDeck - 快捷助手，是一款功能触发型插件，可以�
 Author: zooah212
 Name: SwipeDeck
 
+Package: com.zooah.swipedeck
+Icon: https://zooah212.github.io/repo/icons/SwipeDeck.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/js.json
+Depiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/
+Version: 0.3.7-15
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 5496
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/SwipeDeck-0.3.7-15.deb
+Size: 1973102
+MD5sum: 62761e08ffed2aa37c4d6b703e703534
+SHA1: 91dac2b13c518b0a0095b1b1f4a3c6d7b4fa228d
+SHA256: 07130c2b9110a15a93b2c000ea6a90a888be98d182f2c97c1f5509ed80ed8dfa
+Section: Tweaks
+Description: SwipeDeck - 快捷助手，是一款功能触发型插件，可以通过多种方式主动或被动方式调用 ios 系统的功能。
+Author: zooah212
+Name: SwipeDeck
+

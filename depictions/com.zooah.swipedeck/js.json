@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.6-17"
+          "text": "0.3.7-15"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.7-15\n- 实体键新增电源键功能，包括单击、双击、三击、四击、长按动作；\n- 区域手势中，增加主屏幕图标手势，包括上、下、左、右滑动；\n- 面板高度可调节，内置三挡高度；\n- 内置功能增加滑动关机、手机重启、重启用户空间、安全模式；\n- 优化手电筒开关，手电筒开启后可以调节亮度；\n- 修改ios16+系统右状态栏长按触发动作后，触发系统点击回顶部的手势的问题；\n- 修复监听事件中事件只触发一次的问题；\n- 修复插件中的部分列表可能导致设置app崩溃的问题；\n- 修复0.3.6-17版本出现的亮屏卡顿问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

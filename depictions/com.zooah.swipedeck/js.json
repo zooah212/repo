@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.7-15"
+          "text": "0.3.8-6"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.8-6\n- 监听事件中增加“耳机连接”和“耳机断开”的监听事件；\n- 区域手势中增加摇一摇触发事件；\n- 修复清理后台功能在15+系统可能无效的问题；\n- 修复监听事件中的 WIFI 断开、WIFI 连接、解锁、锁屏可能监听不到的问题；\n- 面板配置页面功能优化；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

@@ -60,7 +60,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.1.8"
+          "text": "1.1.9"
         },
         {
           "class": "DepictionTableTextView",
@@ -78,6 +78,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.1.9\n- 插件备份页面支持查看已安装的插件列表，并可直接备份"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

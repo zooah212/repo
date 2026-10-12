@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.8-6"
+          "text": "0.3.8-15"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.8-15\n- 面板高度支持自适应，至此面板高度包括四种状态：自适应 | 标准 | 加高 | 超高；\n- 内置功能增加深浅模式开关、唤出 CopyVault、唤出 Kayoko、唤出 CopyLog、ApplePay、系统录屏、开麦录屏、媒体静音、APP 资源库、重开当前应用；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

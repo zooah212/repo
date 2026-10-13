@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.3.8-15"
+          "text": "0.3.8-18"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.3.8-18\n- 支持打开链接，可以是url链接，可以是URL Scheme深链接；\n- 修复ios15+系统清理后台功能没有效果或导致设备卡顿的问题+3；\n- 修复ios15+系统锁屏/解锁绑定低电量模式切换无效或混乱的问题；\n- 优化按钮管理页面拖动排序功能；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

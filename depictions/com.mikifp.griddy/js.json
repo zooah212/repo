@@ -23,7 +23,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.1.9"
+          "text": "1.2.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,6 +42,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.2.0\n- 插件备份改名为插件查看与备份；\n- 移除备份单个插件功能；\n- 查看已安装插件页面，点击“跳转”后显示“插件安装详情”；\n- 统一调整插件安装详情页面中“安装位置”的显示形式，减少重复项；\n- 插件相关文件路径可以直接点击，点击后通过Filza跳转到对应的文件；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

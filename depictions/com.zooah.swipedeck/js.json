@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.4.0-8"
+          "text": "0.4.0-16"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.4.0-16\n- 增加插件备份与恢复功能；\n- 修复ios15系统执行shell命令可能不成功的问题；\n- 修复主屏幕长按图标显示菜单关闭后，手势会短暂失效3秒左右的问题；\n- 修复添加应用时不能搜索到照片应用的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

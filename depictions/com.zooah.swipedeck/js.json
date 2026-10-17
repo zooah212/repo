@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.4.0-16"
+          "text": "0.4.1-2"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.4.1-2\n- 优化备份与恢复页面中的信息显示；\n- 锁屏动作 - 锁屏音跟随系统设置；\n- 解决 ios16+ 系统复制了文字之后，点击抖音搜索、拼多多搜索、高德搜索、百度搜索时可能导致手机卡住注销的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

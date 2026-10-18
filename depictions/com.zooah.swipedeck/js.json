@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.4.1-2"
+          "text": "0.4.2-1"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.4.2-1\n- 监听事件 - 动作中增加音量控制功能；\n- 监听事件中增加“来电、接听、打电话、结束来电”的监听功能；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

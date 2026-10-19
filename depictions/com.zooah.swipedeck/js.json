@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.4.2-2"
+          "text": "0.4.2-11"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.4.2-11\n- 事件监听增加时间窗口，可设置监听生效的时间范围；\n- 动作中增加开启键盘声和关闭键盘声两个动作，在内置功能中增加键盘声开关；\n- 事件监听和定时任务增加总开关；\n- 优化部分页面内容显示；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.4.2-11"
+          "text": "0.4.3-1"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.4.3-1\n- 支持面板中app长按、主屏幕图标手势绑定 ScreenCore susu分屏；\n- 修复 ios16 系统锁屏、解锁监听事件可能不触发问题；\n- 修复插件总开关开关时可能出现安全模式的问题；\n- 优化铃声音量、媒体音量的设置方式；\n- 优化部分页面显示；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

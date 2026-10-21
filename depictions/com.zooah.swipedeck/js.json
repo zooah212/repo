@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.4.3-1"
+          "text": "0.4.5-9"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.4.5-9\n- 内置功能中增加“上一个应用、退出当前应用、自动亮度开关、音量加、音量减、朗读文字、HammerIt全屏OCR、HammerIt全屏翻译、Snapper3冻结模式、Snapper3截图历史、Snapper3关闭贴图功能项；\n- 修复清理后台功能可能在 ios16 系统失败的问题++；\n- 修复锁屏音和使用电源键锁屏的音量大小不一致问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

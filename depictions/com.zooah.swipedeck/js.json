@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.4.5-9"
+          "text": "0.4.7"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.4.7\n- 针对Ios16及以上系统，增加两个动作：开启电池百分比，关闭电池百分比；\n- 解决ios16系统左上角返回上一个应用图标无法点击的问题；\n- 修复打开软件开启vpn过段时间后功能可能失效的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

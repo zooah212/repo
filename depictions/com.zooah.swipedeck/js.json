@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.4.9-33"
+          "text": "0.5.0-8"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.5.0-8\n- 内置功能添加应用时显示通讯录、设置、相机；\n- 修复 ios16 系统在主屏幕时，左、右状态栏的长按绑定动作都不生效的问题；\n- 修复 ios16 系统实体键中的电源键单击不绑定动作、双击绑定动作，当单击时，不能触发原生锁屏的问题；\n- 优化插件性能；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

@@ -57,7 +57,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "## 描述\nSwipeDeck - 快捷助手，是一款功能触发型插件，可以通过多种方式主动或被动方式调用 ios 系统的功能。后续会增加更多功能，欢迎大家使用！"
+          "markdown": "## 描述\nSwipeDeck - 快捷助手，是一款功能触发型插件，可以通过手势、实体键、事件监听、定时任务等方式主动或被动方式调用 ios 系统的功能。快捷助手 让手机中的操作更丝滑！"
         },
         {
           "class": "DepictionSeparatorView"
@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.5.1-3"
+          "text": "0.5.1-47"
         },
         {
           "class": "DepictionTableTextView",
@@ -80,7 +80,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "支持的越狱类型",
-          "text": "多巴胺无根/隐根、Relaxin 越狱"
+          "text": "Dopamine、Relaxin"
         }
       ]
     },
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.5.1-47\n- 修复面板跟随app旋转横屏时的一个显示bug；\n- 面板设置视频背景时支持播放声音；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

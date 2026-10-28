@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.5.1-47"
+          "text": "0.5.2-3"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.5.2-3\n- 修复 16 系统动作中的“电池百分比开关”无效的问题；\n- 修复 ios17 系统，重启用户空间无效的问题；\n- 优化“来电”相关的监听事件逻辑，例如“来电”事件，当没有设置时间段时只能添加一次，但是当设置了时间段时，可以添加多次；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

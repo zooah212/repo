@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.5.2-3"
+          "text": "0.5.2-16"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.5.2-16\n- 监听事件中时间范围可以设置启用/禁用；\n- 修复内置功能添加应用时搜索不到通讯录、设置、相机的问题；\n- 修复 ios17 系统主屏幕状态栏双击绑定动作不触发的问题；\n- 修复 ios16 系统注销没有效果的问题；\n- 修复 ios16 系统锁屏界面输入密码(第三位)时卡顿的问题；\n- 修复 ios16 系统主屏幕左、右状态栏长按绑定动作仍不生效的问题；\n- 修复 ios16 系统电源键双击功能绑定功能无效的问题；\n- 修复 ios16 系统监听来电事件绑定调节铃声大小，第一次来电不触发功能的问题；\n- 修复 ios16 系统监听应用打开事件不打开vpn的问题；\n- 修复插件部分页面不能通过屏幕左边缘右滑返回上一级的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

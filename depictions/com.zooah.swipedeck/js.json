@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.5.3-10"
+          "text": "0.5.3-22"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.5.3-22\n- 面板主题支持通过文件系统选择图片/视频；\n- 长按面板顶部拖柄，可直接切换面板主题；\n- 修复 ios16 系统在app内部双击状态栏时会触发主屏幕绑定的双击动作的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

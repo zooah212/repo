@@ -65,7 +65,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.2.0"
+          "text": "1.2.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -83,6 +83,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.2.1\n- 将查看已安装插件页面，列表中的跳转改为“查看”；\n- 优化部分页面记录条数显示方式，更直观；\n- 修复插件安装详情页面在切换app时返回上一层的问题；\n- SpringBoard重启记录页面增加删除记录功能；\n- 优化几个记录页面中记录条数的显示形式，更直观；\n- 当分析日志还存在时，可以直接点击文件名跳转到设置->分析中的对应文件；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

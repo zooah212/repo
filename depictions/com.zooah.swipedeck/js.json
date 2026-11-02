@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.5.4-9"
+          "text": "0.5.6-2"
         },
         {
           "class": "DepictionTableTextView",
@@ -91,7 +91,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.5.4-9\n- 完善定时任务功能，手机深睡时可以执行绑定动作；\n- 选择应用时可以添加信息和Safari；\n- 优化定时任务和事件监听页面条目内容显示；\n- 修复 ios 16系统注销、清理后台等带弹窗的功能无法点击触发的问题；"
+          "markdown": "#### 版本: 0.5.6-2\n- 增强功能中增加删除照片免确认、照片无限放大、锁屏下拉清除通知、深色模式键盘纯黑、屏蔽截图/录像检测；\n- 修复来电事件多条规则时被误删的问题、有事件不触发的问题；\n- 修复了一些其他已知问题；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -99,7 +99,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.5.3-22\n- 面板主题支持通过文件系统选择图片/视频；\n- 长按面板顶部拖柄，可直接切换面板主题；\n- 修复 ios16 系统在app内部双击状态栏时会触发主屏幕绑定的双击动作的问题；"
+          "markdown": "#### 版本: 0.5.4-9\n- ⭐完善定时任务功能，手机深睡时可以执行绑定动作；\n- 选择应用时可以添加信息和Safari；\n- 优化定时任务和事件监听页面条目内容显示；\n- 修复 ios 16系统注销、清理后台等带弹窗的功能无法点击触发的问题；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -107,7 +107,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.5.3-10\n- 实体键功能中增加 AirPods 手势，包括长按、单击、双击、三击；\n- 修改 ios16 系统面板主题是视频时，开启音频只有在第一次打开面板时播放声音的问题；"
+          "markdown": "#### 版本: 0.5.3-22\n- ⭐面板主题支持通过文件系统选择图片/视频；\n- ⭐长按面板顶部拖柄，可直接切换面板主题；\n- 修复 ios16 系统在app内部双击状态栏时会触发主屏幕绑定的双击动作的问题；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -115,7 +115,15 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.5.2-20\n- 截屏隐藏状态栏支持 snapper4 插件；\n- 15pro+ 手机操作按钮功能已支持，删除不支持的注释文字；"
+          "markdown": "#### 版本: 0.5.3-10\n- ⭐实体键功能中增加 AirPods 手势，包括长按、单击、双击、三击；\n- 修改 ios16 系统面板主题是视频时，开启音频只有在第一次打开面板时播放声音的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.5.2-20\n- ⭐截屏隐藏状态栏支持 snapper4 插件；\n- 15pro+ 手机操作按钮功能已支持，删除不支持的注释文字；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -235,7 +243,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.4.0-16\n- 增加插件备份与恢复功能；\n- 修复ios15系统执行shell命令可能不成功的问题；\n- 修复主屏幕长按图标显示菜单关闭后，手势会短暂失效3秒左右的问题；\n- 修复添加应用时不能搜索到照片应用的问题；"
+          "markdown": "#### 版本: 0.4.0-16\n- ⭐增加插件备份与恢复功能；\n- 修复ios15系统执行shell命令可能不成功的问题；\n- 修复主屏幕长按图标显示菜单关闭后，手势会短暂失效3秒左右的问题；\n- 修复添加应用时不能搜索到照片应用的问题；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -251,7 +259,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.9-16\n- 支持添加 app 的 3D 快捷方式，可直接调用；\n- 修改打开链接深链接调用可能不生效的问题；\n- 修改添加功能页面相关子页面名称输入的问题；"
+          "markdown": "#### 版本: 0.3.9-16\n- ⭐支持添加 app 的 3D 快捷方式，可直接调用；\n- 修改打开链接深链接调用可能不生效的问题；\n- 修改添加功能页面相关子页面名称输入的问题；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -259,7 +267,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.8-18\n- 支持打开链接，可以是url链接，可以是URL Scheme深链接；\n- 修复ios15+系统清理后台功能没有效果或导致设备卡顿的问题+3；\n- 修复ios15+系统锁屏/解锁绑定低电量模式切换无效或混乱的问题；\n- 优化按钮管理页面拖动排序功能；"
+          "markdown": "#### 版本: 0.3.8-18\n- ⭐支持打开链接，可以是url链接，可以是URL Scheme深链接；\n- 修复ios15+系统清理后台功能没有效果或导致设备卡顿的问题+3；\n- 修复ios15+系统锁屏/解锁绑定低电量模式切换无效或混乱的问题；\n- 优化按钮管理页面拖动排序功能；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -267,7 +275,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.8-15\n- 面板高度支持自适应，至此面板高度包括四种状态：自适应 | 标准 | 加高 | 超高；\n- 内置功能增加深浅模式开关、唤出 CopyVault、唤出 Kayoko、唤出 CopyLog、ApplePay、系统录屏、开麦录屏、媒体静音、APP 资源库、重开当前应用；"
+          "markdown": "#### 版本: 0.3.8-15\n- ⭐面板高度支持自适应，至此面板高度包括四种状态：自适应 | 标准 | 加高 | 超高；\n- 内置功能增加深浅模式开关、唤出 CopyVault、唤出 Kayoko、唤出 CopyLog、ApplePay、系统录屏、开麦录屏、媒体静音、APP 资源库、重开当前应用；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -275,7 +283,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.8-6\n- 监听事件中增加“耳机连接”和“耳机断开”的监听事件；\n- 区域手势中增加摇一摇触发事件；\n- 修复清理后台功能在15+系统可能无效的问题；\n- 修复监听事件中的 WIFI 断开、WIFI 连接、解锁、锁屏可能监听不到的问题；\n- 面板配置页面功能优化；"
+          "markdown": "#### 版本: 0.3.8-6\n- ⭐监听事件中增加“耳机连接”和“耳机断开”的监听事件；\n- 区域手势中增加摇一摇触发事件；\n- 修复清理后台功能在15+系统可能无效的问题；\n- 修复监听事件中的 WIFI 断开、WIFI 连接、解锁、锁屏可能监听不到的问题；\n- 面板配置页面功能优化；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -283,7 +291,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.7-15\n- 实体键新增电源键功能，包括单击、双击、三击、四击、长按动作；\n- 区域手势中，增加主屏幕图标手势，包括上、下、左、右滑动；\n- 面板高度可调节，内置三挡高度；\n- 内置功能增加滑动关机、手机重启、重启用户空间、安全模式；\n- 优化手电筒开关，手电筒开启后可以调节亮度；\n- 修改ios16+系统右状态栏长按触发动作后，触发系统点击回顶部的手势的问题；\n- 修复监听事件中事件只触发一次的问题；\n- 修复插件中的部分列表可能导致设置app崩溃的问题；\n- 修复0.3.6-17版本出现的亮屏卡顿问题；"
+          "markdown": "#### 版本: 0.3.7-15\n- ⭐实体键新增电源键功能，包括单击、双击、三击、四击、长按动作；\n- 区域手势中，增加主屏幕图标手势，包括上、下、左、右滑动；\n- 面板高度可调节，内置三挡高度；\n- 内置功能增加滑动关机、手机重启、重启用户空间、安全模式；\n- 优化手电筒开关，手电筒开启后可以调节亮度；\n- 修改ios16+系统右状态栏长按触发动作后，触发系统点击回顶部的手势的问题；\n- 修复监听事件中事件只触发一次的问题；\n- 修复插件中的部分列表可能导致设置app崩溃的问题；\n- 修复0.3.6-17版本出现的亮屏卡顿问题；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -323,7 +331,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.5-12\n- 新增K2拍照、录像调用功能，针对K2 1.1.0 版本进行的适配，其他版本不保证能用；\n- 修复监听事件中，监听锁屏和解锁无效的问题；\n- 修复17系统面板中注销弹窗中按钮点击无效的问题；\n- 修复实体键中，音量加、减键绑定了任意功能后并在开启的情况下，单击调节音量加、减会不生效问题；\n- 修复16系统监听事件中，wifi关闭事件打开蜂窝没效果，蜂窝关闭打开wifi没效果的问题；\n- 修复crane容器相关问题；"
+          "markdown": "#### 版本: 0.3.5-12\n- ⭐新增K2拍照、录像调用功能，针对K2 1.1.0 版本进行的适配，其他版本不保证能用；\n- 修复监听事件中，监听锁屏和解锁无效的问题；\n- 修复17系统面板中注销弹窗中按钮点击无效的问题；\n- 修复实体键中，音量加、减键绑定了任意功能后并在开启的情况下，单击调节音量加、减会不生效问题；\n- 修复16系统监听事件中，wifi关闭事件打开蜂窝没效果，蜂窝关闭打开wifi没效果的问题；\n- 修复crane容器相关问题；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -331,7 +339,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.5-5\n- 面板增加一款新玻璃主题；"
+          "markdown": "#### 版本: 0.3.5-5\n- ⭐面板增加一款新玻璃主题；"
         },
         {
           "class": "DepictionSeparatorView"
@@ -347,7 +355,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "#### 版本: 0.3.4-17\n- 面板设置为图片/视频背景主题时，支持调整图片/视频的显示范围；"
+          "markdown": "#### 版本: 0.3.4-17\n- ⭐面板设置为图片/视频背景主题时，支持调整图片/视频的显示范围；"
         },
         {
           "class": "DepictionSeparatorView"

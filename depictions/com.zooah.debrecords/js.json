@@ -65,7 +65,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.2.1"
+          "text": "1.2.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -83,6 +83,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 1.2.2\n- ⭐解除和 SwipeDeck-快捷助手的绑定，插件单独可免费使用；；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

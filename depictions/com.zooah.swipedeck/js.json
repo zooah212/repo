@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.5.8-6"
+          "text": "0.5.8-25"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.5.8-25\n- 面板主题是图片/视频时，增加视频从头播放开关；\n- 清理后台成功后增加震动反馈；\n- 移除 var、tmp 目录下的一些插件文件或日志；\n- ⭐优化定时任务功能，解决深睡问题；\n- 修复删除照片免确认、屏蔽截图/录屏检测在 ios16 系统无效的问题；\n- 修复横屏游戏时，可能导致app崩溃的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

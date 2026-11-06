@@ -36,6 +36,25 @@ Description: Griddy 是一个图标摆放插件，开启插件后，屏幕中的
 Author: mikifp & zooah212
 Name: Griddy
 
+Package: com.wm0104.keybridge
+Icon: https://zooah212.github.io/repo/icons/KeyBridge.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.wm0104.keybridge/js.json
+Depiction: https://zooah212.github.io/repo/depictions/com.wm0104.keybridge/
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: wm0104
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/KeyBridge-0.0.3-rootless.deb
+Size: 272068
+MD5sum: 44331a5b2f2bf1ff481c4af24ae6b144
+SHA1: 36905dc9065034dc22e10db41d324121a3d189f9
+SHA256: 5b00d2642afce20a936df360fa8a0274f10085708d55e265bc38ff39be21484b
+Section: 键盘增强
+Description: 词库桥接 KeyBridge，为苹果原生中文键盘接入本地 Rime 词库，支持 26 键全拼与九宫格。兼容测试范围 iOS 15.0–16.x。
+Author: wm0104
+Icon: https://raw.githubusercontent.com/wm0104/keybridge/main/Assets/KeyBridge.png
+Name: 词库桥接
+
 Package: com.zooah.debrecords
 Icon: https://zooah212.github.io/repo/icons/DebRecords.png
 Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/js.json

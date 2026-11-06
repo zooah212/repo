@@ -1,0 +1,63 @@
+{
+  "minVersion": "0.3",
+  "class": "DepictionTabView",
+  "tintColor": "#667eea",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "## 描述\n为苹果原生中文键盘接入本地 Rime 词库，支持 26 键全拼与九宫格。\n\n兼容测试范围：iOS 15.0–16.x；目前仅在 iOS 16.3（roothide）真机验证。\n\n特别感谢 i_82（Apelin 作者）提供的开发支持。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "wm0104"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.0.3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持的系统",
+          "text": "iOS 15.0 - 16.x"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持的越狱类型",
+          "text": "rootless"
+        }
+      ]
+    },
+    {
+      "tabname": "更新日志",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.0.3\n- 适配 ios15 系统；"
+        }
+      ]
+    },
+    {
+      "tabname": "本源公告",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "## zooah's Repo\n\n- 本源提供 DebRecords、SwipeDeck、Griddy、KeyBridge 等插件\n- 插件安装后出现问题请卸载\n- 本人开发插件仅供学习、测试使用\n- Q群:20231280"
+        }
+      ]
+    }
+  ]
+}

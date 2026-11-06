@@ -10,7 +10,7 @@
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,
-          "markdown": "## 描述\n为苹果原生中文键盘接入本地 Rime 词库，支持 26 键全拼与九宫格。\n\n兼容测试范围：iOS 15.0–16.x；目前仅在 iOS 16.3（roothide）真机验证。\n\n特别感谢 i_82（Apelin 作者）提供的开发支持。"
+          "markdown": "## 描述\n为苹果原生中文键盘接入本地 Rime 词库，支持 26 键全拼与九宫格。\n\n兼容测试范围：iOS 15.0–16.x；目前仅在 iOS 16.3（roothide）真机验证。\n\n特别感谢 i_82（Apelin 作者）提供的开发支持。\n\n插件 fork 自 @wm0104/keybridge，只为适配 ios15 系统。"
         },
         {
           "class": "DepictionSeparatorView"

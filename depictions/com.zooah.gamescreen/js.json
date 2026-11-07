@@ -55,7 +55,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.1.5"
+          "text": "0.1.6"
         },
         {
           "class": "DepictionTableTextView",
@@ -73,6 +73,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.1.6\n- 分屏区域内的app支持180°旋转；\n- 优化页面；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

@@ -188,6 +188,25 @@ Description: GameScreen 是一款 iPhone 横屏分屏插件，支持左侧横屏
 Author: zooah212
 Name: GameScreen
 
+Package: com.zooah.gamescreen
+Icon: https://zooah212.github.io/repo/icons/GameScreen.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.gamescreen/js.json
+Depiction: https://zooah212.github.io/repo/depictions/com.zooah.gamescreen/
+Version: 0.1.6
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 1008
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/GameScreen-0.1.6.deb
+Size: 221320
+MD5sum: 537dece3d8a5d67da01e5953ca6ac98a
+SHA1: 4d2d7f640a85972304f0cc677ef5cedb4400795d
+SHA256: d281c8fe80fff4ab73a5882c16ea13d4b2857406569f61140b51e67680cf6aeb
+Section: Tweaks
+Description: GameScreen 是一款 iPhone 横屏分屏插件，支持左侧横屏 App + 右侧竖屏 App 同屏运行。兼容 iOS 15.0 及以上。
+Author: zooah212
+Name: GameScreen
+
 Package: com.zooah.swipedeck
 Icon: https://zooah212.github.io/repo/icons/SwipeDeck.png
 Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/js.json

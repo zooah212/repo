@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.5.8-25"
+          "text": "0.5.9-12"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.5.9-12\n- 优化插件的注入范围，减少注销占用的时间；\n- 优化事件监听页面条目显示；\n- 未解锁状态也可以打开app；\n- 修复 ios16 系统打开蜂窝关闭wifi不生效问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

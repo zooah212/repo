@@ -169,6 +169,25 @@ Description: DebRecords 插件用于记录插件的安装、卸载或升级信�
 Author: zooah212
 Name: DebRecords
 
+Package: com.zooah.gamescreen
+Icon: https://zooah212.github.io/repo/icons/GameScreen.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.gamescreen/js.json
+Depiction: https://zooah212.github.io/repo/depictions/com.zooah.gamescreen/
+Version: 0.1.5
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 1008
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/GameScreen-0.1.5.deb
+Size: 220460
+MD5sum: 505bf15e75720a2c59eddbbc354b1bcb
+SHA1: 5d09c7c615567e3b118e08079ee22e319e032641
+SHA256: 3bc984da7feefa45cbaa4e4cc954a1380c86f83749510034f45c3f194059b1e5
+Section: Tweaks
+Description: GameScreen 是一款 iPhone 横屏分屏插件，支持左侧横屏 App + 右侧竖屏 App 同屏运行。兼容 iOS 15.0 及以上。
+Author: zooah212
+Name: GameScreen
+
 Package: com.zooah.swipedeck
 Icon: https://zooah212.github.io/repo/icons/SwipeDeck.png
 Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/js.json

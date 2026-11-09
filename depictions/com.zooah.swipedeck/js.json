@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.5.9-12"
+          "text": "0.6.0-3"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.6.0-3\n- ios16+系统支持豆包语音，可以绑定到面板、实体键、手势中；\n- 修复ios16系统事件监听中来电事件相关问题；\n- 优化部分功能逻辑；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

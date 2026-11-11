@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.6.0-10"
+          "text": "0.6.1-2"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.6.1-2\n- 面板中可以直接进行图标位置调整和删除。面板图标区域空白处长按可进入编辑状态，编辑状态可以调整图标位置，编辑状态点击删除角标后进入确认删除状态，第二次点击图标按钮即确认删除；空白位置再次点击退出编辑模式；\n- 优化部分细节；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

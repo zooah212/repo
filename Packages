@@ -325,6 +325,25 @@ Package: com.zooah.swipedeck
 Icon: https://zooah212.github.io/repo/icons/SwipeDeck.png
 Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/js.json
 Depiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/
+Version: 0.6.4-15
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 8208
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/SwipeDeck-0.6.4-15.deb
+Size: 2634480
+MD5sum: 1b6ec7b4d5e7b3cd53f463ba93c35ab1
+SHA1: a48564c9b6eb6da1fd96419f0f8115dc676d43e3
+SHA256: 72145c4b79e751cbcc08969e6ec0e04656aad0f6f05281683a3cfdcaf2ca98e6
+Section: Tweaks
+Description: SwipeDeck - 快捷助手，是一款功能触发型插件，可以通过多种方式主动或被动方式调用 ios 系统的功能。
+Author: zooah212
+Name: SwipeDeck - 快捷助手
+
+Package: com.zooah.swipedeck
+Icon: https://zooah212.github.io/repo/icons/SwipeDeck.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/js.json
+Depiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/
 Version: 0.6.4-6
 Architecture: iphoneos-arm64
 Maintainer: zooah212

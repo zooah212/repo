@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.6.4-6"
+          "text": "0.6.4-15"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.6.4-15\n- 增加VPN连接状态显示功能，可在增强功能中开启；\n- 面板打开效果是弹簧动画时，增加图标飞入速度调节参数；\n- 增加拍照禁用快门声，可在增强功能中开启；\n- 增加相机全屏，可在增强功能中开启；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

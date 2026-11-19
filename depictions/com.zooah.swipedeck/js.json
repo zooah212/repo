@@ -70,7 +70,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.6.5-14"
+          "text": "0.6.6-6"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,14 @@
       "tabname": "更新日志",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "#### 版本: 0.6.6-6\n- 统一面板中图标的边角实现方式，面板参数增加“面板图标圆角弧度”参数，可以自调节；\n- 修复蜂窝、蓝牙等有状态的开关，在面板打开的情况下，开关状态不随点击变换的问题；\n- 修复 vpn 状态指示颜色可能和开关状态不一致的问题；\n- 修复 vpn 管理页面不显示 vpn 列表数据的问题；"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionMarkdownView",
           "useSpacing": true,

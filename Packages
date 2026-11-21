@@ -60,25 +60,6 @@ Icon: https://zooah212.github.io/repo/icons/DebRecords.png
 Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/js.json
 Depiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/
 Version: 1.2.0
-Architecture: iphoneos-arm64e
-Maintainer: zooah212
-Installed-Size: 1704
-Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/DebRecords-1.2.0-roothide.deb
-Size: 323960
-MD5sum: 219556e42120cb3690a7db2188fce730
-SHA1: 3b0188ef27a61bf38d2075686acb8ee1887e4c1e
-SHA256: 2be0a552e669e976509e09dd3ce78ca5631ea55c5273633bb9e4d10d7eae9111
-Section: Tweaks
-Description: DebRecords 插件用于记录插件的安装、卸载或升级信息；可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份；支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。
-Author: zooah212
-Name: DebRecords
-
-Package: com.zooah.debrecords
-Icon: https://zooah212.github.io/repo/icons/DebRecords.png
-Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/js.json
-Depiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/
-Version: 1.2.0
 Architecture: iphoneos-arm64
 Maintainer: zooah212
 Installed-Size: 1704
@@ -97,16 +78,16 @@ Package: com.zooah.debrecords
 Icon: https://zooah212.github.io/repo/icons/DebRecords.png
 Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/js.json
 Depiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/
-Version: 1.2.1
-Architecture: iphoneos-arm64
+Version: 1.2.0
+Architecture: iphoneos-arm64e
 Maintainer: zooah212
-Installed-Size: 1736
+Installed-Size: 1704
 Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/DebRecords-1.2.1-rootless.deb
-Size: 334882
-MD5sum: fb8b03544c4dfca277a22c722f7c9b66
-SHA1: 9ceee64c42bbb9d004e5b93e0b410ce73753d5bf
-SHA256: 20083b821c693c53c9f8a44e26872cf47fd5c709d000625a56ace204c1bd0f06
+Filename: debs/DebRecords-1.2.0-roothide.deb
+Size: 323960
+MD5sum: 219556e42120cb3690a7db2188fce730
+SHA1: 3b0188ef27a61bf38d2075686acb8ee1887e4c1e
+SHA256: 2be0a552e669e976509e09dd3ce78ca5631ea55c5273633bb9e4d10d7eae9111
 Section: Tweaks
 Description: DebRecords 插件用于记录插件的安装、卸载或升级信息；可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份；支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。
 Author: zooah212
@@ -126,6 +107,25 @@ Size: 335782
 MD5sum: 9703b5b2bc6397e3c1f81ba8c3bd06bd
 SHA1: 644300dc21689aecd4f9dceb90f4c7a0e97907d0
 SHA256: f9b5095cf1bad48be27ef72a409f13305c15591275c6be906cd383295ed4083b
+Section: Tweaks
+Description: DebRecords 插件用于记录插件的安装、卸载或升级信息；可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份；支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。
+Author: zooah212
+Name: DebRecords
+
+Package: com.zooah.debrecords
+Icon: https://zooah212.github.io/repo/icons/DebRecords.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/js.json
+Depiction: https://zooah212.github.io/repo/depictions/com.zooah.debrecords/
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 1736
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/DebRecords-1.2.1-rootless.deb
+Size: 334882
+MD5sum: fb8b03544c4dfca277a22c722f7c9b66
+SHA1: 9ceee64c42bbb9d004e5b93e0b410ce73753d5bf
+SHA256: 20083b821c693c53c9f8a44e26872cf47fd5c709d000625a56ace204c1bd0f06
 Section: Tweaks
 Description: DebRecords 插件用于记录插件的安装、卸载或升级信息；可以对单个插件、用户插件、所有插件进行备份，支持异步备份和增量备份；支持记录 SpringBoard 重启的相关信息；支持记录手机进入安全模式的相关信息；支持记录手机重启的相关信息。
 Author: zooah212
@@ -354,6 +354,25 @@ Size: 2665032
 MD5sum: ddd71b137ec7080e0ff935a4b888574e
 SHA1: d2ccc96e375c9b92a1e9c3baf96bec8a96444297
 SHA256: 87aac8ecdd6a1f0f5346f89678f116d23c615d6bcf7a72a4daffbd0bedddc5e3
+Section: Tweaks
+Description: SwipeDeck - 快捷助手，是一款功能触发型插件，可以通过多种方式主动或被动方式调用 ios 系统的功能。
+Author: zooah212
+Name: SwipeDeck - 快捷助手
+
+Package: com.zooah.swipedeck
+Icon: https://zooah212.github.io/repo/icons/SwipeDeck.png
+Sileodepiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/js.json
+Depiction: https://zooah212.github.io/repo/depictions/com.zooah.swipedeck/
+Version: 0.6.7-6
+Architecture: iphoneos-arm64
+Maintainer: zooah212
+Installed-Size: 8384
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/SwipeDeck-0.6.7-6.deb
+Size: 2666548
+MD5sum: 225a2cc09f8ad2ceb99879ec7bc9ba84
+SHA1: 5c29c4cb72a4528e72d4b4910eaa17fe53160900
+SHA256: c7abaa7499295b07daeaa429a716c6c45470c26e54847dd0ac5851c2112c3b93
 Section: Tweaks
 Description: SwipeDeck - 快捷助手，是一款功能触发型插件，可以通过多种方式主动或被动方式调用 ios 系统的功能。
 Author: zooah212
